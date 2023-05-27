@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-                <div className="target" ref={targetRef}>Target</div>
+                <div className="target" ref={targetRef}>Drag this div</div>
                 <Moveable
                     target={targetRef}
                     draggable={true}
